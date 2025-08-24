@@ -2,5 +2,9 @@ import math
 
 
 def area_circle(r):
-    area = math.pi * r**2
-    return area
+    S = math.pi * r**2
+    return S
+
+def area_square(a):
+    S_s = a**2
+    return S_s
